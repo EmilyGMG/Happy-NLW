@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  color: white;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body, input, buttom, textarea {
+  /* font-weight: 400;
+  font-size: 1.8rem;
+  font-family: 'Nunito', sans-serif; */
+
+  font: 400 1.8rem/1 'Nunito', sans-serif;
+}
+
+
+.animate-up {
+  animation-name: up;
+  animation-duration: 300ms;
+  animation-fill-mode: backwards;
+}
+
