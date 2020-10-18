@@ -1,10 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   height: 100vh;
   color: white;
+  background: #EBF2F5;
 }
 
 :root {
@@ -17,12 +19,5 @@ body, input, buttom, textarea {
   font-family: 'Nunito', sans-serif; */
 
   font: 400 1.8rem/1 'Nunito', sans-serif;
-}
-
-
-.animate-up {
-  animation-name: up;
-  animation-duration: 300ms;
-  animation-fill-mode: backwards;
 }
 
